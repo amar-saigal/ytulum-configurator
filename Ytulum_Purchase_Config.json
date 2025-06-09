@@ -1,0 +1,58 @@
+{
+    "unit_types": {
+        "GardenHouse": {
+            "base_price_usd": 319000,
+            "configurations": [
+                "2BR / 3BA",
+                "3BR / 3BA"
+            ],
+            "upgrades": {
+                "Lock-Off Option": 8000
+            }
+        },
+        "PentHouse": {
+            "base_price_usd": {
+                "2BR / 2BA": 342500,
+                "3BR / 3BA": 362500
+            },
+            "configurations": [
+                "2BR / 2BA",
+                "3BR / 3BA"
+            ],
+            "upgrades": {
+                "Lock-Off Option": 8000,
+                "Rooftop Bedroom": 20000
+            }
+        },
+        "SkyHouse": {
+            "base_price_usd": 610000,
+            "configurations": [
+                "5BR / 4BA"
+            ],
+            "upgrades": {
+                "Rooftop Kitchen": 15000,
+                "Solar Panels": 12000
+            }
+        }
+    },
+    "art_tiers": {
+        "None": 0.0,
+        "Silver": 0.05,
+        "Gold": 0.1,
+        "Platinum": 0.25
+    },
+    "financing": {
+        "interest_rate_annual": 0.106,
+        "loan_durations_years": [
+            1,
+            2,
+            3
+        ],
+        "downpayment_options_percent": [
+            30,
+            50,
+            100
+        ],
+        "max_buyers": 5
+    }
+}
